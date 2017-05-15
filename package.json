@@ -1,5 +1,5 @@
 {
-  "name": "xmldoc",
+  "name": "xmldoc-washingtonpost",
   "description": "A lightweight XML Document class for JavaScript.",
   "author": {
     "name": "Nick Farina",
@@ -15,13 +15,9 @@
   "dependencies": {
     "sax": "^1.2.1"
   },
-  "license": {
-    "type": "MIT",
-    "url": "https://raw.github.com/nfarina/xmldoc-js/master/LICENSE"
-  },
   "repository": {
     "type": "git",
-    "url": "git://github.com/nfarina/xmldoc.git"
+    "url": "git@github.com:WPMedia/xmldoc.git"
   },
   "contributors": [
     {
@@ -36,5 +32,8 @@
   "readmeFilename": "README.md",
   "devDependencies": {
     "tap": "^8.0.1"
+  },
+  "publishConfig": {
+    "registry": "https://washingtonpost.artifactoryonline.com/washingtonpost/api/npm/npm-local"
   }
 }
